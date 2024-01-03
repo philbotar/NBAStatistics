@@ -1,0 +1,34 @@
+.todo-title {
+cursor: pointer;
+}
+.completed-todo {
+text-decoration: line-through;
+}
+.tab-list > span {
+padding: 5px 8px;
+border: 1px solid rgb(7, 167, 68);
+border-radius: 10px;
+margin-right: 5px;
+cursor: pointer;
+}
+.tab-list > span.active {
+background-color: rgb(6, 139, 12);
+color: #fff;
+}
+
+.team-name {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.game-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.game-card {
+  flex: 0 0 calc(50% - 1rem);
+  max-width: calc(50% - 1rem);
+}
